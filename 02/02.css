@@ -1,0 +1,27 @@
+* {
+  padding:0px;
+  margin:0px;  
+}
+body {
+    background-color: aliceblue;
+}
+
+header,main, footer{
+    width: 80%;
+    margin-left: 10pc;
+    padding: 20px;
+    background-color: aqua;
+    /* text-align:  center; */
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    width: 80%;
+    padding: 20px;
+    background-color: brown;
+}
+
+section {
+    width: 30%;
+}
