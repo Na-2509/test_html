@@ -1,0 +1,17 @@
+.inputDiv {
+    margin-bottom: 40px;
+
+}
+
+input[type=text] { 
+     /* text 는 없어도 된다. */
+    padding: 8px;
+
+}
+
+input[readonly] {
+    background-color: beige;
+}
+
+
+

@@ -8,7 +8,7 @@ main {
 
 }
 
-button {
+button, input[type=button], input[type=reset] {
     padding: 10px 20px;
     margin: 5px 15px;
 
@@ -20,16 +20,46 @@ button {
 
     font-weight: bold;
 
+
 }
 
-button:hover {
+input[type=button]:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+/* button:hover {
     background-color: blueviolet;
     cursor: pointer;
 
-}
+} */
 
 .btDiv {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#msg {
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+#msg span {
+    color: red
 }
