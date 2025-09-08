@@ -41,7 +41,11 @@ ul {
     /* height: 150px; */
 
     border: 5px solid red;
+}
 
+
+li > i {
+    font-size: 25px;
 }
 
 
@@ -52,8 +56,9 @@ article {
 }
 
 article > p {
-    font-family: "Dongle", sans-serif;
-
+    font-family: "East Sea Dokdo", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
 }
 
 
@@ -78,6 +83,11 @@ section.s2 {
 ul {
     list-style: none;
 }
+
+/* li {
+  display: inline;
+} */
+
 
 a {
     display: inline-block;

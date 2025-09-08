@@ -1,0 +1,61 @@
+#spDiv {
+    width: 80;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+/* #spDiv {} 밑에 들어가는 디자인, 
+1~9번까지, 10~19번까지, 20~29번까지, 30~39번까지, 40~45번까지 
+번호색깔이 다르게 표현되는게 목표 */
+#spDiv > span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+
+    margin: 5px;
+/*    background-color: brown;
+    color: white; */
+    border-radius: 50%;
+    font-weight: bold;
+
+}
+
+.sp0 {
+    /* 동그라미 배경색깔 */
+    background-color: aqua;
+    /* 동그라미 내부 글자색깔 */
+    color: black;
+}
+
+.sp1 {
+    background-color: rgb(4, 206, 88);
+    color: white;
+}
+
+.sp2 {
+    background-color: tomato;
+    color: white;
+}
+
+.sp3 {
+    background-color: rgb(214, 214, 57);
+    color: white;
+}
+
+.sp4 {
+    background-color: violet;
+    color: white;
+}
+
+.spplus {
+    color: springgreen;
+    font-size: large;
+}
+

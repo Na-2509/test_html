@@ -19,17 +19,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
 
     <!-- 구글아이콘 -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
-
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" /> -->
     <!-- 어썸아이콘 Awsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-
-
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 
 <body>
     <!-- CSS적용 예제 -->
@@ -39,8 +35,6 @@
         </h1>
         <nav>
             <ul>
-                
-                
                 <!-- 목록 아이템 표시 li -->
                 <li class="ultext"><a href="#h2html">HTML</a></li>
                 <li class="ultext"><a href="#h2css">CSS</a></li>
@@ -52,15 +46,16 @@
                     <i class="fa-brands fa-square-instagram"></i></a></li>
 
                 <!-- 폰트어썸아이콘 (집모양 홈버튼) 보여지는 곳         -->
-                <li class="ulicon"><a href="../index.html"><i class="fa-solid fa-house"></i></a></li>
-                
-
-
+                <!-- <li><spand class="material-symbols-outlined">home</span></li> --> 
+                <li class="ulicon"><a href="../index.html">
+                    <i class="fa-solid fa-house"></i></a></li>
             </ul>
         </nav>
     </header>
+
+
     <main>
-        <article>
+        <article class="s1" id="a1">
             <hr>
             <h1>
                 프론트엔드
@@ -74,49 +69,51 @@
             </p>
             <hr>
         </article>
-        <section class="s1" id="a1">
-            <div>
+        <section class="s1">
             <!-- 속성 스타일
             <h2 id="h2html" style="color:blue">HTML</h2> -->
             <h2 id="h2html">HTML</h2>
-            <img src="../img/html.png" />
-            <p>
-                HTML(HyperText Markup Language)은 웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용
+            <div>
+                <img src="../img/01/html.png" />
+                <p>
+                    <span>HTML(HyperText Markup Language)</span>은 웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용</span>
             </p>
             </div>
         </section>
 
         <section class="s2">
+            <h2 id="h2css">CSS</h2>
             <div>
-                <h2 id="h2css">CSS</h2>
-                <img src="../img/css.png" />
+                <img src="../img/01/css.png" />
                 <p>
-                    Cascading Style Sheets(CSS)는 HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어
+                    <span>Cascading Style Sheets(CSS)</span>는 HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어
                 </p>
             </div>
         </section>
 
-        <div>
-            <section class="s1">
-                <h2 id="h2js">JavaScript</h2>
-                <img src="../img/js.png" />
+        <section class="s1">
+            <h2 id="h2js">JavaScript</h2>
+            <div> 
+                <img src="../img/01/js.png" />
                 <p>
-                    웹 페이지를 위한 스크립트 언어로 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원
+                    웹 페이지를 위한 스크립트 언어로 가벼운, 인터프리터 혹은 <span>just-in-time 컴파일 프로그래밍 언어</span>로, 일급 함수를 지원
                 </p>
-            </section>
-        </div>
+            </div>    
+        </section>
+    
 
-        <div>
-            <section class="s2">
-                <h2 id="h2React">React</h2>
-                <img src="../img/react.png" />
+        <section class="s2">
+            <h2 id="h2React">React</h2>
+            <div>
+                <img src="../img/01/React.png" />
                 <p>
-                    사용자 인터페이스를 만들기 위한 JavaScript 라이브러리
+                    사용자 인터페이스를 만들기 위한 <span>JavaScript</span> 라이브러리
                 </p>
-            </section>
-        </div>
+            </div>    
+        </section>
     </main>
 
+    
     <footer>
         <ul>
             <li>AI 빅데이터분석 풀스택서비스 SW 개발자 양성과정</li>

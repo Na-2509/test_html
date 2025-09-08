@@ -11,6 +11,7 @@ const check1 = (e) => {
     console.log(typeof(inputV));
     console.log(inputV.length);
     console.log(inputV[0]);
+    console.log(inputV.charAt(0))
 
     //입력한 문자열에서 공백 제거
     let inputVt = inputV.replaceAll(' ','') ;
@@ -37,10 +38,10 @@ const check1 = (e) => {
     document.getElementById('msg').innerHTML = `<span>"${inputV}"</span>는 
         ${inputVt == resultV ? "회문입니다.": "회문이 아닙니다."}` ;
 
-    // 폼태그를 쓸떄, 
-
+    // 폼태그를 쓸때, 
 }
 
+//숫자합계
 const check2 = () => {
     //1. 사용자가 입력한 문자열 가져오기
     const inputV = document.getElementById('txt1').value ;
@@ -59,15 +60,9 @@ const check2 = () => {
         }
     }
 
-
-
     //3. 합계 출력
     document.getElementById('txt2').value = sum ;
     document.getElementById('msg').innerHTML = `합계 =&nbsp;<span>${sum}</span>` ;
-
-
-
-
 }
 
     //4. 취소처리
