@@ -33,11 +33,11 @@ input[type=reset]:hover {
     cursor: pointer;
 }
 
-/* button:hover {
+button:hover {
     background-color: blueviolet;
     cursor: pointer;
 
-} */
+}
 
 .btDiv {
     display: flex;
